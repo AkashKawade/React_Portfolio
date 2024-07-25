@@ -1,0 +1,28 @@
+#portfolio{
+    padding: 50px 0 0 60px;
+
+}
+.work-list{
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(200px,1fr));
+    margin-top: 50px;
+}
+
+.work{
+    position: relative;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.work img{
+    width: 450px;
+    height: 300px;
+    border-radius: 10px;
+    display: block;
+}
+
+
+.layer h3{
+    color: #ff004f;
+    padding: 20px 0;
+}

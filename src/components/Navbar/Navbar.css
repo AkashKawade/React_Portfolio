@@ -1,0 +1,35 @@
+* {
+    background: black;
+    color: white;
+}
+
+nav {
+    height: 50px;
+    background: black;
+    display: flex;
+    align-items: center;
+    justify-content:start;
+    flex-wrap: wrap;
+}
+
+#logo {
+    padding:40px 0 0 30px;
+    font-size: 40px;
+}
+ #logo span {
+    color: #ff004f;
+ }
+
+.Menu {
+    padding-top: 30px;
+    padding-left:60%
+}
+
+.menuitem {
+   
+    padding-left: 20%;
+} 
+
+
+
+ 
