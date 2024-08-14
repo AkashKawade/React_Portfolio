@@ -30,8 +30,8 @@ function SkillsEducation() {
             <li>HTML</li>
             <li>CSS</li>
             <li>Excel</li>
-            <li>JavaScript (Learning)</li>
-            <li>React (Learning)</li>
+            <li>JavaScript (Basic)</li>
+            <li>React (Basic)</li>
           </ul>
         </div>
       )}

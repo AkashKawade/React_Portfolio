@@ -1,35 +1,40 @@
 * {
     background: black;
     color: white;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
 nav {
-    height: 50px;
+    height: 60px; /* Adjust height as needed */
     background: black;
     display: flex;
     align-items: center;
-    justify-content:start;
-    flex-wrap: wrap;
+    justify-content: space-between; /* Space between logo and menu */
+    padding: 0 30px; /* Padding for the whole navbar */
 }
 
 #logo {
-    padding:40px 0 0 30px;
     font-size: 40px;
 }
- #logo span {
+
+#logo span {
     color: #ff004f;
- }
+}
 
 .Menu {
-    padding-top: 30px;
-    padding-left:60%
+    display: flex;
+    gap: 30px; /* Space between menu items */
 }
 
 .menuitem {
-   
-    padding-left: 20%;
-} 
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    transition: color 0.3s ease;
+}
 
-
-
- 
+.menuitem:hover {
+    color: #ff004f; /* Change color on hover */
+}
